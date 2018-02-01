@@ -1,0 +1,26 @@
+#!/bin/bash source-this-script
+[ "$BASH_VERSION" ] || return
+
+# todo-txt completion
+
+_todotxtcli()
+{
+    local cur pre cst
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    pre="${COMP_WORDS[COMP_CWORD-1]}"
+    cst="${COMP_WORDS[COMP_CWORD-2]}_${COMP_WORDS[COMP_CWORD-1]}"
+  case $pre in
+    mit )
+      COMPREPLY=( $(compgen -W "today tomorrow monday tuesday wednesday thursday friday saturday sunday january february march april may june july august september october november december" -- $cur) )
+      ;;
+    * )
+      if [[ $cst =~ ^mv_[0-9]+$ ]]; then
+        COMPREPLY=( $(compgen -W "today tomorrow monday tuesday wednesday thursday friday saturday sunday january february march april may june july august september october november december" -- $cur) )
+      else
+        COMPREPLY=( $(compgen -W "mit `eval todo.sh lsprj` `eval todo.sh lsc`" -- $cur) )
+      fi
+      ;;
+  esac
+  return 0;
+}
+complete -F _todotxtcli t

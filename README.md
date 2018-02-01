@@ -1,5 +1,5 @@
 # Major target: use todo-txt.cli to manage your big plan(Ubuntu)
-Minor target: learn shell and linux, same time use emacs org-mode to manage your small plan.
+Minor target: learn shell and linux, same time use [emacs org-mode][26] to manage your small plan.
 
 The thing actullay classified into three parts:
 
@@ -581,3 +581,4 @@ complete -F _todotxtcli t
 [23]:https://github.com/ginatrapani/todo.txt-cli/blob/master/todo.sh 
 [24]:https://github.com/jueqingsizhe66/TodoActionXshell 
 [25]:https://github.com/jueqingsizhe66/TodoXshell
+[26]:https://github.com/jueqingsizhe66/ranEmacs.d

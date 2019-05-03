@@ -27,7 +27,7 @@ cygwin制作linux环境，需要把bash文件dos2unix.exe转换文件，否则�
 可以参考我的[todo add on 仓库][20]
 注意在ubuntuhu环境下得设置
 
-1. PATH=$PATH:/Todo/
+0. PATH=$PATH:/Todo/
 2. alias t='todo.sh -d /Todo/todo.cfg'
 3. set TODO_ACTIONS_DIR="/home/yezhaoliang/.todo.actions.d" not ~/.todo.actions.d
 4. let plugin be executable , chmod +x .
@@ -506,7 +506,7 @@ alias cdtodo='cd /cygdrive/d/Todo/todo.txt_cli-2.9'
 you need to configure the Path, t etc, you also need to complete the commands for t.
 
 ``` sh
-PATH=$PATH:"~/TodoXshell/todo.txt_cli-2.9"
+PATH=$PATH:"~/TodoXshell/todo.txt_cli-3.9"
 alias t='todo.sh -d ~/TodoXshell/todo.txt_cli-2.9/todo.cfg'
 export TODOTXT_DEFAULT_ACTION=ls
 source ~/TodoXshell/todo.txt_cli-2.9/todo_completion
@@ -556,6 +556,8 @@ complete -F _todotxtcli t
 
 ```
 
+[User manual][27]
+
 [1]:https://github.com/ginatrapani/todo.txt-cli 
 [2]:https://vimeo.com/3263629 
 [3]:https://github.com/ginatrapani/todo.txt-cli/wiki/Todo.sh-Add-on-Directory#mit-most-important-task 
@@ -582,3 +584,4 @@ complete -F _todotxtcli t
 [24]:https://github.com/jueqingsizhe66/TodoActionXshell 
 [25]:https://github.com/jueqingsizhe66/TodoXshell
 [26]:https://github.com/jueqingsizhe66/ranEmacs.d
+[27]:https://github.com/todotxt/todo.txt-cli/wiki/User-Documentation

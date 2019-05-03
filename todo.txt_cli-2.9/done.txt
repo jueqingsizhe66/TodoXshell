@@ -29,3 +29,18 @@ x 2018-01-28 {2017.06.00} @f708 +multiAxis writing the yaw report for Mr Kang wi
 x 2018-01-28 {2017.06.02} @f708 +multiAxis Learn UG to utilize the UG8.0 folders By LiXinkai                 t:2017-06-02
 x 2018-01-28 {2017.05.00} @f708 +multiAxis Practice writing the yawing paper about WT and do some java source coding ,deep learning maven and springboot project ,and also keetle    note:53D.md             t:2017-05-28
 x 2018-01-28 {2017.05.23} @f708 +graduate inform WangNanMan to submit the undergraduate thesis                 t:2017-05-23
+x 2019-05-03 {2017.05.07}  @f708 +multiAxis finish drawing nacelle yawing mesh                  t:2017-05-07
+x 2019-05-03 {2017.10.00} finish paper @f708 +multiAxis                  t:2017-10-28
+x 2019-05-03 {2017.06.03} @f708 +multiAxis Learn to use PROE                  t:2017-06-03
+x 2019-05-03 {2017.09.00} @f708 +java Learn the note from d:NoteForJava,many knowledge             t:2017-09-28
+x 2019-05-03 {2017.Q2.00} @f708 +multiAxis do summary for the yaw wind turbine                  t:2017-06-29
+x 2019-05-03 {2017.09.08} @f708 +multiAxis 1.compare the steady result with time-average 2.unsteady result 3.dynamic yaw result      t:2017-09-08
+x 2019-05-03 {2019.00.00} @beijing +graduate Finish four papers required by NCEPU                  t:2019-12-01
+x 2019-05-03 {2017.07.00} @f708 +java practive springboot and hutool also feilong-core                t:2017-07-28
+x 2019-05-03 {2017.05.13} accumulate the terms for writing the paper about the extreme yaw condition @f708 +multiAxis         t:2017-05-13
+x 2019-05-03 {2020.00.00} @beijing +work search my job about the wind turbine or some coding work                  t:2020-12-01
+x 2019-05-03 {2017.06.00} @f708 +java learn to use beetl and beetlsql template engine                t:2017-06-28
+x 2019-05-03 {2018.Q2.00} Finish a perl introduction for newbie @f708 +graduation   t:2018-06-29
+x 2019-05-03 {2017.06.21} read Mastering Regex Expression carefully and do test with regexTest @f708 +perl         t:2017-06-21
+x 2019-05-03 {2019.00.00} @beijing +graduate writing the graduate thesis for my Doctor major in fluid mechanic    note:DQI.md              t:2019-12-01
+x 2019-05-03 {2018.Q1.00} you need to finish learnt Rupeng Java Improved project @F708 +java  t:2018-03-30

@@ -149,6 +149,14 @@ sed -ie 's/t:.*\s*//g' todo.txt
 
 ```
 
+update deleteView.sh, because of the bug there are note:zo0.md after t:2018-05-28
+`-Ei` ,rather than `-iE`, `-iE` not working! but `-Ei` works!
+
+```
+sed  -Ei 's/t:[0-9]{4}-[0-9]{2}-[0-9]{2}//g' todo.txt
+
+```
+
 删除todo.txt目录下的该文件， 从t:开始到行尾都删除掉。增删就都完成了，这样就可以使用t view date, t view tomorrow, t view today , t view past ,t view future,
 t view nodate等。
 ![todo][14]
@@ -305,7 +313,17 @@ TODO: 12 added.
 
 + [t note][22]
 
-除非真的想要添加笔记，一般我是不太原因添加的，t again , t mit, t due, t lately, t view用的好好的，不整这么复杂的。
+除非真的想要添加笔记，一般I don't wanna添加的，t again , t mit, t due, t lately, t view用的好好的，不整这么复杂的。
+
+```
+t note add taskID 
+t note show taskID
+t note edit taskID
+
+after archived, use  t note show a
+```
+
+Because of TODO_NOTE_EXT and EDITOR , so you write note with vim by the md extension of file
 
 1. 【add】约定是在每个任务后面加上一个note:任意文件名.md 该文件名存储在todo.txt文件的目录下.
 按照原理每个任务如果添上note会有一个文件名，通过名字对应。

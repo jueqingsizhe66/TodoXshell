@@ -1,4 +1,4 @@
-#count=1;
+count=1;
 for quartern in `grep -no "[^ :]*{[^ ]\+}" todo.txt|tr "." "-"|awk -F"[{-}]" '{printf("%s%s\n",$1,$2)}'`;do 
     item=`echo $quartern|cut -d ":" -f1`
     quarter=`echo $quartern|cut -d ":" -f2`

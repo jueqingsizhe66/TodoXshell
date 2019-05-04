@@ -578,6 +578,12 @@ complete -F _todotxtcli t
 
 [User manual][27]
 
+### git credential
+
+```
+git config --global credential.helper store
+```
+
 [1]:https://github.com/ginatrapani/todo.txt-cli 
 [2]:https://vimeo.com/3263629 
 [3]:https://github.com/ginatrapani/todo.txt-cli/wiki/Todo.sh-Add-on-Directory#mit-most-important-task 

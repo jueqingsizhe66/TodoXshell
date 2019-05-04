@@ -82,9 +82,11 @@ cygwin制作linux环境，需要把bash文件dos2unix.exe转换文件，否则�
 
 + [t mitf 1d][7]
        带时间段的定义task
-       t mitf 1w "@f708 +multiAxis ..."
-       t mitf 1m "@f708 +multiAxis ..."
-       t mitf 1d "@f708 +multiAxis ..."
+       t mitf 1w "... @f708 +multiAxis "
+       t mitf 1m "... @f708 +multiAxis"
+       t mitf 1d "... @f708 +multiAxis"
+
+       context and project information must be in the end of line
 + [t top   t view  t edit][8]
        top显示头20天信息。
 
